@@ -27,6 +27,6 @@ def setup():
     data_path = "Coffee_VS_Sleep.csv"
     DataSource = getDataSource(data_path)
     findCorrelation(DataSource)
-    plotFigure(DataSource)
+    plotFigure(data_path)
 
 setup()
